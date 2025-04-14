@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}   
+.p2{
+    
+    margin-left: 500px;
+    margin-bottom: 500px;
+}
+.in{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.i1{
+    justify-content: end;
+    height: 600px;
+   }
+   
+
+body{
+    background-color: rgb(14, 7, 7);
+    color: white;
+}
+.poster{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 10px 40px;
+    height: 500px;
+
+}
+.part1{
+    padding: 80px;
+}   
+.pa1{
+    text-align: center;
+    padding: 30px;
+}
+.card{
+    overflow: hidden;
+}
+#img-sc:hover{
+    transform: scale(1.05);
+
+}
+.a{
+    animation-name: slide;
+    animation-duration: 5s;
+    @keyframes identifier {
+        o%{
+
+        }
+        30%{
+            transform:transition:(100px)
+        }
+    }
+}
+.p1 {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    margin-left: 80px;
+
+}
+.p2 {
+    width: 100%;
+    height: 650px;
+    margin-right: 10px;
+}
+.p2 > img {
+      width: 90%;
+      height: 90%;
+      margin-left: 40px;
+      margin-top: -20px;
+}
+.del{
+    color: gray;
+
+}
+.btn1{
+    padding: 18px 40px;
+    background-color: rgb(234, 25, 25);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+.btn2{
+    padding: 10px 30px;
+    background-color: rgb(234, 25, 25);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+#email{
+    background-color: black;
+    border: 1px solid white;
+    height: 25px;
+}
+.row1 {
+ padding-top: 300px;
+}
+#browse{
+    border: 1px solid rgb(239, 235, 235);
+    height: 590px;
+    color: white;
+    width: 320px;
+    justify-content: center;
+    border-radius: 2%;
+}
+#product{
+    text-decoration: none;
+}
+/* cart */
+#cart1{
+    border: 1px solid red;
+}
